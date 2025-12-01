@@ -6,15 +6,27 @@
 </head>
 <body>
 
-<div class="box">
-  <h2>Create Your YetID</h2>
+  <div class="container">
+    
+    <!-- LEFT SECTION — Sign Up Form -->
+    <div class="signup-container">
+      <h2>Create Your YetID</h2>
 
-  <input type="text" id="newUser" placeholder="Username">
-  <input type="password" id="newPass" placeholder="Password">
+      <input type="text" id="newUser" placeholder="Username">
+      <input type="password" id="newPass" placeholder="Password">
 
-  <button onclick="YetID_Register()">Sign Up</button>
-  <p>Already have one? <a href="login.html">Login here</a></p>
-</div>
+      <button onclick="YetID_Register()">Sign Up</button>
+      <p>Already have one? <a href="login.html">Login here</a></p>
+    </div>
+
+    <!-- RIGHT SECTION — Welcome Message + Random GIF -->
+    <div class="welcome-container">
+      <h1>Hello, Welcome to YetID!</h1>
+      <p>We appreciate signing up to YetID.</p>
+
+      <img id="welcome-gif" src="" alt="Loading GIF...">
+<script src="gif-loader.js"></script>
+
 
 <script src="yetid.js"></script>
 </body>
